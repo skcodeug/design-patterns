@@ -1,0 +1,25 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Building a console shopping cart application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skcodeug/design-patterns.git"
+  },
+  "keywords": [
+    "'shopping",
+    "cart",
+    "in",
+    "JS'"
+  ],
+  "author": "Stephen Kasirye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skcodeug/design-patterns/issues"
+  },
+  "homepage": "https://github.com/skcodeug/design-patterns#readme"
+}

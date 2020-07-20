@@ -1,0 +1,16 @@
+Design patterns assignment
+
+Imagine you had a shop dealing in the following items
+: Laptops, Desktops, Laptop bags, Antivirus Software, Microsoft Office software, Keyboards
+Imagine that this shop needs to
+: Manage its inventory
+: Has an online shopping platform 
+
+This will strictly be a user application, therefore no GUI and will not need a database either
+
+Steps:
+1. Fork the repository
+2. Setup your node project
+3. Include TypeScript
+4. Create the necessary models
+5. Setup unit tests 
