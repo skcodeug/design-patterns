@@ -1,6 +1,6 @@
-const laptop = require('./models/laptopModel');
+const laptop = require("./models/laptop");
 
-class computerShop {
+class ShoppingCart {
   inventory = [];
 
   addInventory(someInventory) {
@@ -13,9 +13,20 @@ class computerShop {
   }
 
   listInventory() {
-    for(var i=0; i<this.inventory.length; i++)  
-    console.log(this.inventory[i]);
+    var price = 0;
+    for (var i = 0; i < this.inventory.length; i++) {
+      console.log(this.inventory[i]);
+      price += this.inventory[i].price;
+    }
+    console.log(`There are ${this.inventory.length} items costing $${price}.`);
+  }
+
+  summaryInventory() {
+    var price = 0;
+    for (var i = 0; i < this.inventory.length; i++)
+      price += this.inventory[i].price;
+    console.log(`There are ${this.inventory.length} items costing $${price}.`);
   }
 }
 
-module.exports = computerShop;
+module.exports = ShoppingCart;
